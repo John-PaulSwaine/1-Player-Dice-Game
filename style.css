@@ -1,0 +1,17 @@
+body {
+    font-family: Arial, sans-serif;
+    text-align: center;
+}
+#dice {
+    font-size: 50px;
+}
+#message, p {
+    font-size: 24px;
+    margin-top: 20px;
+}
+img {
+    display: flex;
+    justify-content: center;
+    margin-left: 45vw;
+    display: none;
+}
