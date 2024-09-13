@@ -7,12 +7,13 @@
   <link rel="stylesheet" href="style.css">
 </head>
 <body>
-    <h1>Roll the Dice Game</h1>
-    <button id="rollBtn">Roll the Dice</button>
+    <header>
+      <h1>Roll the Dice Game</h1>
+    </header>
 
+    <button id="rollBtn"><h1>Roll The Dice:</h1></button>
     <!-- Dice roll animation, initially hidden only to be shown during the dice roll -->
     <img id="diceImage" src="./images/diceRoll.gif"> 
-
     <!-- Dice result images, all hidden initially only to show dice roll result -->
     <img id="dice1" src="./images/dice1.png">
     <img id="dice2" src="./images/dice2.png">
@@ -21,16 +22,18 @@
     <img id="dice5" src="./images/dice5.png">
     <img id="dice6" src="./images/dice6.png">
 
-    <div id="dice"></div>
-    <div id="score">Score: 0</div>
-    <div id="message"></div>
-    <div id="instruction">
-        <h2>How To Play:</h2>
-        <p>Press Roll Dice to start.</p>
-        <p>If you roll a 1/one you lose and your roll score is reset to 0/zero.</p>
-        <p>The aim of the game is to get a score of 30.</p>
-        <p>Enjoy the game!!</p>
-    </div>
+    <main>
+      <div id="dice"></div>
+      <div id="score">Score: 0</div>
+      <div id="message"></div>
+      <div id="instruction">
+          <h2>How To Play:</h2>
+          <p>Press Roll Dice to start.</p>
+          <p>If you roll a 1 you lose and your roll score is reset to 0.</p>
+          <p>The aim of the game is to get a score of 30.</p>
+          <p>Enjoy the game!!</p>
+      </div>
+    </main>
     <script src="diceGame.js"></script>
 </body>
 </html>
